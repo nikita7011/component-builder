@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 Component Builder
 
-## Getting Started
+> A modern component-building and UI development platform for creating, previewing, and experimenting with reusable React components.
 
-First, run the development server:
+Component Builder is a Next.js-based web application designed to make UI development faster and more interactive. It provides a collection of reusable components, interactive UI experiences, and developer-focused interfaces that can be used as building blocks for modern web applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧱 Reusable UI Components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project contains a growing collection of reusable React and TypeScript components, including:
 
-## Learn More
+- Login forms
+- Buttons
+- Inputs
+- Cards
+- Avatars
+- Badges
+- Checkboxes
+- Dropdown menus
+- Accordions
+- Animated components
+- Custom UI controls
+- Form components
 
-To learn more about Next.js, take a look at the following resources:
+Components are designed to be modular and reusable across different pages and projects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎨 Modern UI & Animations
 
-## Deploy on Vercel
+Component Builder focuses on modern and visually engaging interfaces.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Features include:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Responsive layouts
+- Interactive components
+- Smooth animations
+- Modern typography
+- Glassmorphism-inspired interfaces
+- Hover and focus states
+- Dynamic backgrounds
+- Custom visual effects
+
+---
+
+### 🔐 Authentication UI
+
+The project includes modern authentication interfaces such as:
+
+- Login forms
+- Password visibility toggle
+- Email/password inputs
+- Authentication-focused layouts
+- Form validation states
+- Responsive authentication screens
+
+---
+
+### 🌌 Interactive Visual Components
+
+The project also includes visually rich components such as:
+
+- Animated backgrounds
+- Infinite scrolling elements
+- Interactive globes
+- Animated hero sections
+- Background boxes
+- Custom transitions
+- Interactive UI demonstrations
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **HTML5**
+- **CSS3**
+
+### UI & Components
+
+- Reusable React components
+- Radix UI components
+- Custom CSS animations
+- Responsive design
+- Modern component architecture
+
+### Development Tools
+
+- Node.js
+- npm
+- Git
+- GitHub
+- Vercel
+
+---
+
+# 🧠 Project Architecture
+
+The application follows a modular component-based architecture.
+
+```text
+                    Component Builder
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+          Next.js                      React
+             │                           │
+             └─────────────┬─────────────┘
+                           │
+                    Reusable Components
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+             UI         Context       Pages
+              │
+       ┌──────┼───────────────┐
+       │      │               │
+     Forms  Animations    Visual Effects
